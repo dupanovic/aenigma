@@ -1,4 +1,4 @@
-import type { ModuleOptions } from 'webpack';
+  import type { ModuleOptions } from 'webpack';
 
 export const rules: Required<ModuleOptions>['rules'] = [
   // Add support for native node modules
@@ -7,6 +7,16 @@ export const rules: Required<ModuleOptions>['rules'] = [
     // "fake" .node file which is really a cjs file.
     test: /native_modules[/\\].+\.node$/,
     use: 'node-loader',
+  },
+  {
+    test: /\.jsx?$/,
+    use: {
+      loader: 'babel-loader',
+      options: {
+        exclude: /node_modules/,
+        presets: ['@babel/preset-react']
+      }
+    }
   },
   {
     test: /[/\\]node_modules[/\\].+\.(m?js|node)$/,
