@@ -1,4 +1,4 @@
-# Aenigma
+# Aenigma 🧩
 A light GUI cross-platform file utility.
 
 ## Features
