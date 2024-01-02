@@ -1,14 +1,14 @@
 import { contextBridge, ipcRenderer } from 'electron';
 
 export const outputFormats = [
+  'avif',
+  'gif',
   'jpg',
   'jpeg',
   'png',
-  'avif',
-  'webp',
-  'gif',
-  'tiff',
   'raw',
+  'tiff',
+  'webp',
 ] as const;
 
 export type OutputFormat = (typeof outputFormats)[number];

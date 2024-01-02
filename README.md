@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Aenigma 🧩
 A light GUI cross-platform file utility.
 
@@ -43,7 +44,3 @@ If you wish to package Aenigma for your local platform yourself, you can do so b
 ```bash
 npm run package
 ```
-
-## License
-
-MIT © [Electron React Boilerplate](https://github.com/electron-react-boilerplate)
