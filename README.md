@@ -1,5 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# Aenigma 🧩
+# 🧩 Aenigma
 A light GUI cross-platform file utility.
 
 ## Features
